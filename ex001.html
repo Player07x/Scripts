@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Programa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p id="demo">Já me livrei da maldição!!!</p>
+    <script>
+        if (window.confirm('Está gostando de JS?') == true) {
+            window.alert('Que bom!')
+        }
+        nome = window.prompt('Qual é o seu nome?')
+        if(nome == null || nome == '') {
+            window.alert('Bem vindo!')
+        }
+        else {
+            window.alert('Bem vindo '+ nome+'!')
+        }
+    </script>
+</body>
+</html>
