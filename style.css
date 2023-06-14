@@ -6,3 +6,7 @@ body {
 h1 {
     color: rgb(225, 212, 22)
 }
+
+input {
+    font: normal 20pt Arial;
+}
